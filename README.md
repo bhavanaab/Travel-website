@@ -5,5 +5,5 @@ A Travel website created using HTML and css.
 
 ## Live Demo
 
-[Check out the live demo here](https://bhavanaab.github.io/Travel-website/)
+[Check out the live demo here](file:///C:/Users/yathish%20A%20B/Desktop/web/web%20dev/Assignments/travel_project/travel.html)
 
