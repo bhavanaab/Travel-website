@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel website</title>
+
+        <link rel="stylesheet" href="travel.css">
+
+        <!-- Bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap link -->
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!-- font awesome cdn -->
+
+        <!-- Google fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- Google fonts link -->
+
+
+    </head>
+    <body>
+        
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+              <img src="travel2.png" width="100px" height="100px">
+              <a class="navbar-brand" href="travel.html" id="logo"><span>E</span>xplore <span>W</span>orld </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa-solid fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="travel.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#book">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar end -->
+
+
+        <!-- home section start -->
+          <div class="home">
+            <div class="content">
+              <h5>Exploring the World</h5>
+              <h1>Visit <span class="changecontent"></span></h1>
+              <p>"Travelling is an experience that can teach us so many things that you cannot possibly learn while living at home. Firstly, it teaches you how to make new friends. The world is full of people who love interacting. You get to make friends when you travel to new places and spend quality time with them."</p>
+              <a href="#book" >Book now</a>
+            </div>
+          </div>
+        <!-- home section end -->
+
+        <!-- Book section start -->
+          <section class="book" id="book">
+            <div class="container">
+
+              <div class="main-text">
+                <h1><span>B</span>ook</h1>
+              </div>
+
+              <div class="row">
+
+                <div class="col-md-6 py-3 py-md-0">
+                  <div class="card">
+                    <img src="./worls-travel3.jpg" >
+                  </div>
+                </div>
+                
+                <div class="col-md-6 py-3 py-md-0">
+                  <form action="#">
+
+                    <input type="text" class="form-control" placeholder="Where To" required><br>
+                    <input type="text" class="form-control" placeholder="How Many" required><br>
+                    <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                    <input type="date" class="form-control" placeholder="Leaving" required><br>
+                    <textarea name="text" class="form-control" rows="2" placeholder="Enter Your Name & Details"></textarea><br>
+                    <input type="submit" value="Book Now" class="submit" required>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </section>
+        <!-- Book section end -->
+
+        <!-- section Packages start -->
+          <section class="packages" id="packages">
+            <div class="container">
+
+              <div class="main-text">
+                <h1><span>P</span>ackages</h1>
+              </div>
+
+              <div class="row" style="margin-top: 30px;">
+
+                <!-- first card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./taj-mahal.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>India</h3>
+                      <p>Taj Mahal is one of the famous historical monuments in India.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <h6>Price: <strong>$500</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- second card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./paris.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>Paris</h3>
+                      <p>An iron structure that dominates the skyline of Paris.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                      </div>
+                      <h6>Price: <strong>$600</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!-- third card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./dubai.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>Dubai</h3>
+                      <p>Dubai is a city of ports and where big business takes place alongside sun-seeking tourism.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <h6>Price: <strong>$400</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!-- Fourth card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./italy.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>Italy</h3>
+                      <p>Italy is renowned as a tourist destination.It attracted more than 40 million foreign visitors.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                      </div>
+                      <h6>Price: <strong>$800</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!-- Fivth card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./spain.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>Spain</h3>
+                      <p>Spain is one of the safest countries in Europe.It is top 10% of the safest countries in the world.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <h6>Price: <strong>$500</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!-- Sixth card -->
+                <div class="col-md-4 py-3 py-md-0">
+                  
+                  <div class="card">
+                    <img src="./germany.jpg" alt="" height="200px">
+                    <div class="card-body">
+                      <h3>Germany</h3>
+                      <p>Germany is a destination for every taste. It offers a wide variety of attractions.</p>
+                      <div class="star">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>
+                      <h6>Price: <strong>$500</strong></h6>
+                      <a href="#book">Book Now</a>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- end of cards -->
+
+              </div>
+            </div>
+
+          </section>
+
+        <!-- section Packages end -->
+
+
+
+
+
+
+        <!-- section services start -->
+          <section class="services" id="services">
+            <div class="container">
+
+              <div class="main-text">
+                <h1><span>S</span>ervices</h1>
+              </div>
+
+              <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                      <h3>Affordable Hotel</h3>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="card-body">
+                      <h3>Food and Drinks</h3>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                      <h3>Safety Guide</h3>
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+              </div>
+
+              <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-globe-asia"></i>
+                    <div class="card-body">
+                      <h3>Around the World</h3>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-plane"></i>
+                    <div class="card-body">
+                      <h3>Fastest Travel</h3>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+
+                  <div class="card">
+                    <i class="fas fa-hiking"></i>
+                    <div class="card-body">
+                      <h3>Adventures</h3>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+
+        <!-- section services end -->
+
+
+
+        <!-- section about start -->
+          <section class="about" id="about">
+            <div class="container">
+
+              <div class="main-text">
+                <h1>About <span>Us</span></h1>
+              </div>
+
+              <div class="row" style="margin-top: 50px;">
+                <div class="col-md-6 py-3 py-md-0">
+                  <div class="card">
+                    <img src="./about.jpg" alt="" height="250px">
+                  </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                  <h2>How Travel Agency Work</h2>
+                  <p>The mission of the Explore World is to become the best adventure provider to the clients in the area.  The agency will provide travel arrangements and consulting and will try to connect newcomers of adventure travel with those who will become usual customers.</p>
+                  <button id="about-btn">Read More..</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- section about end -->
+
+        <!-- footer start -->
+          <footer id="footer">
+            <h1><span>T</span>ravel</h1>
+            <div class="social-link">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+
+            <!-- <div class="credit">
+              <p>Designed by <a href="#">Bhavana A B</a></p>
+            </div> -->
+            <div class=" copyright">
+              <p>&copy;Copyright </p>
+            </div>
+          </footer>
+        <!-- footer end -->
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
